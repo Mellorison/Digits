@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.progression.ethos.digitsgame.SplashActivity"
+    android:background="@drawable/pixelspace"
+    android:visibility="visible"
+    tools:background="@drawable/pixelspace"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BARYSTAR"
+        android:visibility="visible"
+        android:layout_weight="0.13"
+        android:textColor="@android:color/background_light"
+        android:textAllCaps="true"
+        android:textStyle="normal|bold"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textSize="34sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_weight="0.07"
+        android:text=" "
+        android:textStyle="normal|bold"
+        android:textAllCaps="true"
+        android:textColor="@android:color/darker_gray" />
+
+    <TextView
+        android:text=" "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:textColor="@android:color/darker_gray" />
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp">
+
+        <TableRow
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/d1"
+                android:background="@android:drawable/list_selector_background" />
+
+            <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3 points"
+        android:textSize="18sp"
+        android:paddingLeft="10dp"
+                android:visibility="visible"
+                android:textColor="@android:color/background_light"
+                android:textStyle="normal|bold" />
+
+        </TableRow>
+
+    <TableRow
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/d0"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1 point"
+            android:textSize="18sp"
+            android:paddingLeft="10dp"
+            android:visibility="visible"
+            android:textColor="@android:color/background_light"
+            android:textStyle="normal|bold" />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/dd"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Game Over"
+            android:textSize="18sp"
+            android:paddingLeft="10dp"
+            android:visibility="visible"
+            android:textColor="@android:color/holo_red_light"
+            android:textStyle="normal|bold" />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/dg"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Game Over"
+            android:textSize="18sp"
+            android:paddingLeft="10dp"
+            android:visibility="visible"
+            android:textColor="@android:color/holo_red_light"
+            android:textStyle="normal|bold" />
+    </TableRow>
+
+    </TableLayout>
+
+    <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="START"
+        android:layout_marginTop="60dp"
+        android:onClick="startGame"/>
+
+
+</LinearLayout>

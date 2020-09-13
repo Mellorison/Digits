@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Digits Game</string>
+    <string name="text_loading">loading...</string>
+    <string name="button_check">CHECK</string>
+    <string name="text_guess">Guess The Number!</string>
+    <string name="text_congrats">Congratulations! You Guessed In</string>
+    <string name="text_tries">tries</string>
+</resources>
